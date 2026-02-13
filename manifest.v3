@@ -13,17 +13,18 @@
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
     <value name="DADA_GlobalVariable1">1.0</value>
     <value name="SIQAJDBCAdapterTests">1.0</value>
+    <value name="SIQACloudStreamsTests">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">33</value>
+  <value name="build">34</value>
   <null name="description"/>
   <value name="created_date">13-02-2026 05:27:56 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-02-13T07:06:03.868171785Z</value>
+  <value name="lastUpdated">2026-02-13T07:07:21.006782932Z</value>
   <value name="wmProjectId">flc68f78f5facb403d86d4450d5aa6f0cf</value>
   <value name="creator">Rima Barman</value>
 </Values>

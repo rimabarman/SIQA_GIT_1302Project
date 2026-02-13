@@ -18,6 +18,12 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: SIQAJDBCAdapterTests
+  version: "1.0"
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: rimabarman
+  gitBranch: main
+- name: SIQACloudStreamsTests
   gitServerName: rimaSCName
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: rimabarman
@@ -35,6 +41,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.15
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqa_git_1302.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:TestDB
   packages:
   - name: SIQA_GIT_1302Project
@@ -47,6 +57,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.15
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqa_git_1302.integrations:AlertsCRTandERT
   packages:
   - name: SIQA_GIT_1302Project
@@ -59,6 +73,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.15
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: pub.alert:emit
   packages:
   - name: WmPublic
@@ -75,6 +93,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.15
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqa_git_1302.referencedata:refData
   packages:
   - name: SIQA_GIT_1302Project
@@ -87,6 +109,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.15
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqa_git_1302.integrations:Test_Adapter
   packages:
   - name: SIQA_GIT_1302Project
@@ -99,6 +125,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.15
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqa_git_1302.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_1302Project
@@ -111,6 +141,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.15
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
   - name: WmPublic
