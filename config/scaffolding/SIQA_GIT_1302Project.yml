@@ -8,6 +8,14 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 services:
+- serviceName: project.siqa_git_1302.integrations:AlertsCRTandERT
+  packages:
+  - name: SIQA_GIT_1302Project
+    version: "1.0"
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 12.0.0.0.743
 - serviceName: project.siqa_git_1302.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_1302Project
