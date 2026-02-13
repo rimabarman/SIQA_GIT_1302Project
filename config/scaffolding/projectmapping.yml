@@ -8,3 +8,17 @@ runtimes:
     uid: fl364382485a014e62957461e0f80657bf
     stepId: a0
     reference: project.siqa_git_1302.integrations:deepclonetest
+  - name: fld_111819831_stage00.projects.flc68f78f5facb403d86d4450d5aa6f0cf.integrations:conntest
+    type: flow
+    stepId: /0
+    reference: fld_111819831_stage00.projects.flc68f78f5facb403d86d4450d5aa6f0cf.WmPackageServiceProvider.GB_1:readGlobalvariable
+- runtimeAlias: SIQAMCSPStageTest3009
+  assets:
+  - name: fld_111819831_stage00.projects.flc68f78f5facb403d86d4450d5aa6f0cf.integrations:conntest
+    type: flow
+    stepId: /1
+    reference: fld_111819831_stage00.projects.flc68f78f5facb403d86d4450d5aa6f0cf.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+  - name: fld_111819831_stage00.projects.flc68f78f5facb403d86d4450d5aa6f0cf.integrations:conntest
+    type: flow
+    stepId: /2
+    reference: fld_111819831_stage00.projects.flc68f78f5facb403d86d4450d5aa6f0cf.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
