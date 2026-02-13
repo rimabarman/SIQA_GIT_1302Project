@@ -12,6 +12,12 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 - name: DADA_GlobalVariable1
+  version: "1.0"
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: rimabarman
+  gitBranch: main
+- name: SIQAJDBCAdapterTests
   gitServerName: rimaSCName
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: rimabarman
@@ -23,6 +29,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -33,6 +41,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -42,6 +52,8 @@ services:
   - name: SIQA_GIT_1302Project
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -57,6 +69,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -66,6 +80,8 @@ services:
   - name: SIQA_GIT_1302Project
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -77,6 +93,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -86,6 +104,8 @@ services:
   - name: SIQA_GIT_1302Project
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
